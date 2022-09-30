@@ -20,7 +20,7 @@ import { PaymentCreatedListener } from './events/listeners/payment-created-liste
 // }
 
 // start();
-
+console.log("Orders start up.")
 if(!process.env.JWT_KEY){
     throw new Error('JWT_KET must be defined')
 }
