@@ -17,6 +17,7 @@ import mongoose, { mongo } from 'mongoose'
 
 // start();
 
+console.log('Starting up')
 if(!process.env.JWT_KEY){
     throw new Error('JWT_KET must be defined')
 }
