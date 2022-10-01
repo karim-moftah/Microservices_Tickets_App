@@ -19,6 +19,8 @@ import { OrderCancelledListener } from './events/listeners/order-cancelled-liste
 
 // start();
 
+console.log('Starting up...')
+
 if(!process.env.JWT_KEY){
     throw new Error('JWT_KET must be defined')
 }
